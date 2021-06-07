@@ -13,4 +13,13 @@
             </store_information>
         </general>
     </default>
+    <websites>
+        <base>
+            <general>
+                <store_information>
+                    <name>Denis' Second-Hand Shop</name>
+                </store_information>
+            </general>
+        </base>
+    </websites>
 </config>
