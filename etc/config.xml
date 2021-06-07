@@ -7,5 +7,10 @@
                 <enabled>1</enabled>
             </order_export>
         </sales>
+        <general>
+            <store_information>
+                <phone>+38977975812</phone>
+            </store_information>
+        </general>
     </default>
 </config>
