@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="catalog_product_load_after">
+        <observer name="display_tax_class_after_loading_catalog_product"
+                  instance="\SwiftOtter\OrderExport\Observer\DisplayTaxClassAfterLoadingCatalogProduct"
+                  disabled="true"
+        />
+    </event>
+</config>
