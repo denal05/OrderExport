@@ -1,4 +1,14 @@
 # OrderExport
+
+The goal of this module is to:
+1. Initialize the module.
+2. Add layout XML instructions, create a .phtml template, set up a view model and link a .js -ile to power up the display on the View Order page.
+3. Create the admin controller which will trigger the necessary processes.
+4. Build out business logic to transform the order into a PHP array, which is easily converted to JSON.
+5. Post the order to a web service.
+6. Update the database to provide details as to when the order was exported.
+7. Return the response to the frontend.
+
 Cloned from https://gitlab.com/swiftotter/associate-study-guide.git
 
 ____
